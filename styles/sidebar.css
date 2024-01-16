@@ -4,20 +4,21 @@
     bottom: 0;
     top: 55px;
     background-color: white;
-    width: 72px;
+    width: 200px;
     z-index: 200;
     padding-top: 5px;
-
+    overflow-y: auto;
   }
   
   .sidebar-link {
     height: 74px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     cursor: pointer;
-    width: 100%;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 10px;
   }
   
   .sidebar-link:hover {
@@ -27,10 +28,12 @@
   .sidebar-link img {
     height: 24px;
     margin-bottom: 4px;
+    margin-right: 10px;
+    margin-left: 20px;
   }
-  
   .sidebar-link div {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: 600;
     white-space: nowrap; /* Prevent text from wrapping onto a new line */
     overflow: hidden; /* Hide any overflowing text */
     text-overflow: ellipsis; /* Display an ellipsis (...) when text overflows */
