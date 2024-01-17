@@ -45,12 +45,14 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 5px;
+    text-indent: 5px;
     /* margin-left: 10px;
     margin-right: 10px; */
 }
 .search-bar::placeholder{
     font-size: 16px;
-    padding: 5px;
+    /* padding: 5px;  */
+
 }
 .search-bar:focus{
     outline: none;
