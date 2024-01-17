@@ -17,6 +17,7 @@
 .thumbnail{
     width: 100%;
     border-radius: 9px;
+    cursor: pointer;
 }
 .timeline{
     background-color: black;
